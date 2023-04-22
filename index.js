@@ -29,7 +29,7 @@ const generateOptions = ({ city, date }) => {
     url: "https://weatherapi-com.p.rapidapi.com/history.json",
     params: { q: city, dt: date, lang: "en" },
     headers: {
-      "X-RapidAPI-Key": "",
+      "X-RapidAPI-Key": "0968802ed8mshbde20bba0645ccep1509cajsn5cbe4170bd9e",
       "X-RapidAPI-Host": "weatherapi-com.p.rapidapi.com",
     },
   };
